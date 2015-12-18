@@ -26,7 +26,7 @@ autocmd FileType c,cpp,perl,html set cindent
 set runtimepath+=~/.vim/bundle/neobundle.vim/
 call neobundle#begin(expand('~/.vim/bundle/'))
 NeoBundleFetch 'Shougo/neobundle.vim'
-NeoBundle 'scrooloose/nerdtree'  
+NeoBundle 'scrooloose/nerdtree'
 
 " ファイルオープンを便利に
 NeoBundle 'Shougo/unite.vim'
