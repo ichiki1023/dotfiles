@@ -46,10 +46,8 @@ cmap <silent> <C-e> <C-u>:NERDTreeToggle<CR>
 
 "**　カラー設定 **
 syntax enable
-if has('gui_running')
-	set background=dark
-	colorscheme solarized
-endif
+set background=dark
+colorscheme solarized
 
 nnoremap sd <C-w>x
 nnoremap s <Nop>
