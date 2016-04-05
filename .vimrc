@@ -49,6 +49,14 @@ syntax enable
 set background=dark
 colorscheme solarized
 
+"**　スクロール **
+noremap <Space>j <C-f>
+noremap <Space>k <C-b>
+
+"**　対応する括弧に移動 **
+nnoremap [ %
+nnoremap ] %
+
 nnoremap sd <C-w>x
 nnoremap s <Nop>
 nnoremap sj <C-w>j
