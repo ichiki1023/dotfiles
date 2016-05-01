@@ -5,3 +5,4 @@ apm install file-icons
 apm install git-plus
 apm install jumpy
 apm install ex-mode
+apm install language-ect
